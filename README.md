@@ -1,41 +1,71 @@
 # SWIR · GitHub Standards
 
 <p align="center">
-  <strong>Shared project standards for the SWIR ecosystem.</strong><br>
-  Clean issues · consistent pull requests · security guidance · contributor-friendly defaults
+  <strong>Shared standards for the SWIR open-source ecosystem.</strong><br>
+  Consistent issues · clean pull requests · safer releases · contributor-friendly defaults
+</p>
+
+<p align="center">
+  <a href="CONTRIBUTING.md">Contributing</a> ·
+  <a href="SECURITY.md">Security</a> ·
+  <a href="SUPPORT.md">Support</a> ·
+  <a href="CODE_OF_CONDUCT.md">Code of Conduct</a>
 </p>
 
 ---
 
-## Purpose
+## What this repository does
 
-This repository contains the default community health files used across public repositories owned by **Swir** whenever a project does not provide its own version.
+This is the account-level community health repository for **Swir**.
 
-The goal is simple: every SWIR project should feel consistent, professional, easy to contribute to, and easy to maintain.
+Public SWIR repositories can automatically inherit these files when they do not provide their own project-specific versions. That gives projects a consistent baseline without duplicating the same maintenance files everywhere.
 
-## Included standards
+## Shared standards
 
-- Bug report and feature request forms
-- Pull request template
-- Contribution guidelines
-- Security policy
-- Support guidance
-- Code of conduct
-- CODEOWNERS defaults
+| Area | Included |
+| --- | --- |
+| Bug reports | Structured bug-report form |
+| Feature requests | Structured feature-request form |
+| Documentation | Documentation-improvement form |
+| Pull requests | Review-ready PR checklist |
+| Contributions | Shared contribution guidelines |
+| Security | Responsible vulnerability-reporting guidance |
+| Support | Clear support and issue-routing rules |
+| Conduct | Project interaction expectations |
+| Ownership | Default CODEOWNERS entry for `@Swir` |
 
-## Project principles
+## SWIR project principles
 
 1. **Usability first** — software should be understandable and practical.
-2. **Safe changes** — existing features should not be broken without a clear reason.
-3. **Readable code** — prefer maintainable solutions over clever shortcuts.
-4. **Useful documentation** — setup, usage and limitations should be documented.
-5. **Polished releases** — user-facing applications should include versioning, changelogs and release notes.
-6. **Consistent branding** — README files and project assets should follow a recognizable SWIR style.
-7. **Discoverability** — public projects should include meaningful descriptions and search keywords where appropriate.
+2. **Safe changes** — improvements should not silently remove working behavior.
+3. **Readable code** — maintainable solutions beat clever shortcuts.
+4. **Useful documentation** — installation, usage, limitations and recovery steps should be clear.
+5. **Polished releases** — user-facing projects should have versioning, changelogs and useful release notes.
+6. **Consistent branding** — icons, screenshots and README presentation should feel deliberate.
+7. **Discoverability** — public projects should use accurate descriptions, topics and Search Keywords.
+8. **Security by default** — credentials, personal data and dangerous defaults do not belong in repositories.
 
-## Repository-specific files
+## Default issue forms
 
-A repository can override any default by adding its own file. Project-specific rules always take precedence over these shared defaults.
+The shared issue system currently supports:
+
+- `[BUG]` — reproducible problems,
+- `[FEATURE]` — concrete improvements and new capabilities,
+- `[DOCS]` — missing, unclear, outdated or incorrect documentation.
+
+Each project can override these defaults whenever it needs a more specialized workflow.
+
+## Related repository
+
+New SWIR projects can start from:
+
+**[Swir-Project-Template](https://github.com/Swir/Swir-Project-Template)**
+
+It contains the standard repository layout, CI, release workflow, roadmap, changelog, quality checklist, dependency automation and documentation guides.
+
+## Repository-specific overrides
+
+Project-specific files always take precedence over these shared defaults. This keeps the common baseline useful without limiting projects that need stricter or different rules.
 
 ---
 
