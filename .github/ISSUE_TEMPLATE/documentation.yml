@@ -1,0 +1,36 @@
+name: Documentation improvement
+description: Report missing, unclear, outdated, or incorrect documentation
+title: "[DOCS] "
+labels:
+  - documentation
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Documentation location
+      description: Which README, guide, section, or command needs improvement?
+      placeholder: e.g. README > Installation
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is unclear or incorrect?
+      description: Explain the documentation problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: If possible, describe what should be changed or added.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked the current documentation and existing issues.
+          required: true
