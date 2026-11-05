@@ -57,6 +57,15 @@ Short, descriptive commit messages are preferred. Examples:
 
 ## Quality bar
 
+### Screenshots
+
+Capture real application windows with pointer inclusion disabled. Move the pointer outside the captured window, remove keyboard focus from text inputs, and disable click highlights or capture-tool overlays before capture. Review the saved file at native resolution: no mouse arrow, I-beam, caret, pointer halo or click ring should remain. Check copied previews in portfolio pages as well as the project's own images. Preserve genuine interface text, warnings and state; recapture when an overlay obscures content that cannot be restored faithfully.
+
+### Releases
+
+Tie release assets to the exact tested commit and version tag. Include SHA-256 checksums, installation instructions, known limitations and the scope of runtime testing. Download uploaded files and verify them before publication. Clearly label source-only archives; they are not installers or evidence of a working packaged application.
+
 A contribution should leave the project at least as stable and understandable as it was before the change.
 
 Thank you for helping improve the SWIR ecosystem.
+
