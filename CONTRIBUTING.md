@@ -55,6 +55,10 @@ Short, descriptive commit messages are preferred. Examples:
 - `docs: improve installation guide`
 - `refactor: simplify export pipeline`
 
+## Maintenance reviews
+
+Repository refreshes include functional maintenance: source/dependencies, upstream data freshness, actual update behavior, runtime checks and release integrity. Follow [REPOSITORY_REVIEW_CHECKLIST.md](REPOSITORY_REVIEW_CHECKLIST.md), record evidence and unresolved items, and prioritize stale or broken protection data. README/image work alone is not a completed maintenance review.
+
 ## Quality bar
 
 ### Screenshots
@@ -68,4 +72,5 @@ Tie release assets to the exact tested commit and version tag. Include SHA-256 c
 A contribution should leave the project at least as stable and understandable as it was before the change.
 
 Thank you for helping improve the SWIR ecosystem.
+
 
